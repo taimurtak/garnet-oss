@@ -17,7 +17,7 @@ Garnet provides a single source of truth for your configurations, and lets you f
   
  1. Create, update, view and delete env variables in the Web UI
 
-<img src="https://user-images.githubusercontent.com/3413596/119445967-a3737c80-bcfb-11eb-99f4-3659fc1c82db.png" height="300">
+<img src="https://user-images.githubusercontent.com/3413596/119445967-a3737c80-bcfb-11eb-99f4-3659fc1c82db.png" height="400">
 
  2. Fetch env variables in your apps through a single command
 
