@@ -64,4 +64,3 @@ Detailed documentation is present on [our docs site.](https://docs.usegarnet.com
 We love contributions of all kinds. [See our Docs for a guide on how to get started.](https://github.com/garnet-labs/garnet-oss/blob/main/CONTRIBUTING.md)
 
 Not sure where to begin? [Chat with one of our core contributors.](mailto:dev@usegarnet.com)
-
