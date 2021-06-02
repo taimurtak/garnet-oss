@@ -1,5 +1,7 @@
 # Garnet
 
+https://img.shields.io/docker/v/garnetlabs/garnet-oss-backend
+
 Garnet provides a single source of truth for your configurations, and lets you fetch them into your apps automatically. 
 
 - **Encrypted Storage** · centrally store and manage your all your configuration parameters and secrets.
