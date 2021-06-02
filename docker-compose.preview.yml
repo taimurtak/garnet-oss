@@ -25,11 +25,6 @@ services:
             FRONTEND_URL: http://localhost:3000
             BACKEND_URL: http://localhost:8080/api
             AUTH_JWT_EXPIRES_IN: 365 days
-            ENCRYPTION_KEY: 2135d6a3e314d6a8f12f2e640afdf2cf3a5dce00b341c3fb0a3b94f9144cedc2
-            AUTH_JWT_SECRET: a40a8850-24b2-4023-85ce-1765d10c849b-758df0c2-b112-4851-960d-1b7163d3ccd6
-            AUTH_SOCIAL_GITHUB_CLIENT_ID: 73fe145ce993e4975655
-            AUTH_SOCIAL_GITHUB_CLIENT_SECRET: 204f2e5dc6c8652d40ee3095f68c25f3f35ded07
-            AUTH_SOCIAL_GITHUB_CALLBACK_URL: http://localhost:8080/api/auth/social/github/callback
             TENANT_MODE: multi
         image: garnetlabs/garnet-oss-preview:latest
         # build:
