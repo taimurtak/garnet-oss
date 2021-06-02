@@ -24,8 +24,6 @@ services:
             API_DOCUMENTATION_ENABLED: "true"
             FRONTEND_URL: http://localhost:3000
             BACKEND_URL: http://localhost:8080/api
-            AUTH_JWT_EXPIRES_IN: 365 days
-            TENANT_MODE: multi
         image: garnetlabs/garnet-oss-preview:latest
         # build:
         #     context: ./
