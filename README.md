@@ -9,7 +9,7 @@ Garnet provides a single source of truth for your configurations, and lets you f
 - **Integrations** · integrates natively with popular deployment platforms. Check out currently supported [integrations](https://docs.usegarnet.com/), or contribute.  
 - **Audit Logs** · coming soon 
 - **Team Collaboration** · coming soon 
-- **Role Based Access Control** · coming soon 
+- **Role-Based Access Control** · coming soon 
 
 
 ## How it works  
@@ -30,16 +30,16 @@ Garnet provides a single source of truth for your configurations, and lets you f
 - Security by design 
 
 
-## Garnet Cloud Service
+## Garnet Cloud 
 
-You can [sign up for a free account](https://app.usegarnet.com/auth/signin) on our hosted platform.
+You can [sign up for a free account](https://app.usegarnet.com/auth/signin) on our hosted service.
 
 
 ## Deployment Options
 
-Our suggested method for quick deployment is through the provided Docker images.
+Our suggested method for quick deployment is through the provided Docker images. You can view detailed deployment guides in [docs](https://docs.usegarnet.com/deployment/deploying-garnet).
 
-However, Garnet can be deployed anywhere you want! Please contact us at support@usegarnet.com if you wish to deploy Garnet on the following cloud-providers:
+However, Garnet can be deployed anywhere you want. Please contact us at support@usegarnet.com if you wish to deploy Garnet on the following cloud-providers:
 
 * AWS
 * Microsoft Azure
@@ -49,34 +49,19 @@ However, Garnet can be deployed anywhere you want! Please contact us at support@
 
 ## Production Deployment
 
-Please contact us at support@usegarnet.com if you wish to deploy Garnet in production, in your own environment.
+Please contact us at support@usegarnet.com if you want support for deploying Garnet in your own production environment. 
+
+## Local Development 
+
+See docs for [instructions on developing locally.](https://docs.usegarnet.com/deployment/docker) 
+
+## Documentation 
+
+Detailed documentation is present on [our docs site.](https://docs.usegarnet.com/)
 
 ## Contributing
 
-We love contributions of any kind. [See our Docs for a guide on how to get started.](https://github.com/garnet-labs/garnet-oss/blob/main/CONTRIBUTING.md)
+We love contributions of all kinds. [See our Docs for a guide on how to get started.](https://github.com/garnet-labs/garnet-oss/blob/main/CONTRIBUTING.md)
 
-Not sure where to start? [Speak with one of our core contributors.](mailto:dev@usegarnet.com)
-
-## Setting up for local development:
-
-### Dependencies
-
-Make sure you have Docker and Docker Compose installed locally
-
-#### Running Garnet
-
-`git clone https://github.com/garnet-labs/garnet-oss`  
-`cd garnet-oss` 
-
-`docker-compose up` 
-
-#### Initialize DB 
-
-`cd garnet-oss/backend`   
-`npm install`  
-`npm run db:create` 
-
-#### Navigate to Dashboard 
-
-Go to [http://localhost:3000](http://localhost:3000)
+Not sure where to begin? [Chat with one of our core contributors.](mailto:dev@usegarnet.com)
 
