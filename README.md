@@ -6,7 +6,8 @@ Garnet provides a single source of truth for your configurations, and lets you f
 - **Auto-Injection** · fetch and inject environment variables into your apps at build or run time.
 - **Dashboard** · a Web UI to create, update, view and delete projects and configurations.
 - **CLI** · a command-line tool to fetch configurations from Garnet into your applications.
-- **Integrations** · integrates natively with popular deployment platforms. Check out currently supported [integrations](https://docs.usegarnet.com/), or contribute.  
+- **Self-hosting** · easily deploy Garnet within your own environment, on the platform of your choice.
+- **Integrations** · integrate with popular deployment platforms. Check out currently supported [integrations](https://docs.usegarnet.com/), or contribute.  
 - **Audit Logs** · coming soon 
 - **Team Collaboration** · coming soon 
 - **Role-Based Access Control** · coming soon 
@@ -58,6 +59,10 @@ See docs for [instructions on developing locally.](https://docs.usegarnet.com/de
 ## Documentation 
 
 Detailed documentation is present on [our docs site.](https://docs.usegarnet.com/)
+
+## Community Slack 
+
+We have a [community Slack group](https://join.slack.com/t/garnet-community/shared_invite/zt-r3peuq6t-QXABvM7c1lTodgapLlPwkQ) where you can chat with the core team and other contributors. 
 
 ## Contributing
 
