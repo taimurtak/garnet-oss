@@ -1,6 +1,7 @@
 # Garnet
 
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/garnetlabs/garnet-oss-backend)
+![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/garnet-labs/garnet-oss?filename=cli%2Fgo.mod)
 
 Garnet provides a single source of truth for your configurations, and lets you fetch them into your apps automatically. 
 
