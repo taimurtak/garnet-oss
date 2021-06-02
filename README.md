@@ -6,9 +6,10 @@ Garnet provides a single source of truth for your configurations, and lets you f
 - **Auto-Injection** · fetch and inject environment variables into your apps at build or run time.
 - **Dashboard** · a Web UI to create, update, view and delete projects and configurations.
 - **CLI** · a command-line tool to fetch configurations from Garnet into your applications.
-- **Audit Logs** · append-only log of all config changes
 - **Integrations** · integrates natively with popular deployment platforms. Check out currently supported [integrations](https://docs.usegarnet.com/), or contribute.  
+- **Audit Logs** · coming soon 
 - **Team Collaboration** · coming soon 
+- **Role Based Access Control** · coming soon 
 
 
 ## How it works  
