@@ -1,0 +1,9 @@
+apps:
+  - script   : 'npm'
+    args: ['run', 'start:db']
+    cwd    : '/app/backend'
+    name   : 'garnet-backend'
+  - script   : 'npm'
+    args: 'start'
+    cwd    : '/app/frontend'
+    name   : 'garnet-frontend'

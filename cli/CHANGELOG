@@ -1,0 +1,17 @@
+Garnet CLI - v0.0.2 release (May 24, 2021)
+
+- removed auto-capitalization for config key CLI input (GAR-253)
+- changed license to BSL 
+
+Garnet CLI - v0.0.3 OSS release (May 26, 2021)
+
+- changed API host flag to localhost (login.go)
+- changed API path to /configurations (vault/garnetvault.go)
+
+Garnet CLI - v0.1.0 OSS release (May 31, 2021)
+
+- added run_all.go for windows
+- changed naming from vault --> backend
+- changed naming from environment -> scope
+- removed extra license stubs
+- changed naming Secret -> Config in struct

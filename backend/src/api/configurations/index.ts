@@ -1,0 +1,34 @@
+export default (app) => {
+  app.post(
+    `/tenant/:tenantId/configurations`,
+    require('./configurationsCreate').default,
+  );
+  app.put(
+    `/tenant/:tenantId/configurations/:id`,
+    require('./configurationsUpdate').default,
+  );
+  app.post(
+    `/tenant/:tenantId/configurations/import`,
+    require('./configurationsImport').default,
+  );
+  app.delete(
+    `/tenant/:tenantId/configurations`,
+    require('./configurationsDestroy').default,
+  );
+  app.get(
+    `/tenant/:tenantId/configurations/autocomplete`,
+    require('./configurationsAutocomplete').default,
+  );
+  app.get(
+    `/tenant/:tenantId/configurations`,
+    require('./configurationsList').default,
+  );
+  app.get(
+    `/tenant/:tenantId/configurations/:id`,
+    require('./configurationsFind').default,
+  );
+  app.get(
+    `/tenant/:tenantId/configurations/:project/:environment`,
+    require('./configurationsSpecificFind').default,
+  );
+};

@@ -1,0 +1,49 @@
+version: '3'
+services:
+    db:
+        container_name: postgres
+        environment:
+            # POSTGRES_DB: garnet
+            POSTGRES_PASSWORD: garnet
+            POSTGRES_USER: garnet
+        image: postgres:13
+        ports: 
+            - 5432:5432
+        volumes:
+            - postgres-data:/var/lib/postgresql/data
+    backend:
+        container_name: garnet_backend
+        environment:
+            #these need to be configured based on the deployment, currently dev mode placeholders
+            DB_USERNAME: garnet
+            DB_PASSWORD: garnet
+            DB_NAME: garnet
+            DB_HOST: db
+            DB_TYPE: postgres
+            DB_LOGGING: "true"
+            API_DOCUMENTATION_ENABLED: "true"
+            FRONTEND_URL: http://localhost:3000
+            BACKEND_URL: http://localhost:8080/api
+            AUTH_JWT_EXPIRES_IN: 365 days
+            ENCRYPTION_KEY: <randomly-generated-256-bit-key> 
+            AUTH_JWT_SECRET: <randomly-generated-UUID-string>
+            AUTH_SOCIAL_GITHUB_CLIENT_ID: <GitHub-OAuth-client-ID>
+            AUTH_SOCIAL_GITHUB_CLIENT_SECRET: <GitHub-OAuth-client-secret>
+            AUTH_SOCIAL_GITHUB_CALLBACK_URL: http://localhost:8080/api/auth/social/github/callback
+            TENANT_MODE: multi
+        image: garnetlabs/garnet-oss-backend:latest
+        links:
+            - db:db
+        ports:
+            - 8080:8080
+        working_dir: /app
+        command: npm start
+    frontend:
+        container_name: garnet_frontend
+        image: garnetlabs/garnet-oss-frontend:latest
+        ports:
+            - 3000:3000
+        working_dir: /app
+        command: npm start
+volumes:
+    postgres-data: 
